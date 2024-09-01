@@ -2,6 +2,7 @@
   "name": "shadcn-color-picker",
   "version": "0.1.0",
   "private": true,
+  "author": "Fikri Nurdiansyah",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,11 +10,16 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@radix-ui/react-popover": "^1.1.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.2",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "lodash": "^4.17.21",
     "lucide-react": "^0.428.0",
     "next": "14.2.5",
     "react": "^18",
+    "react-colorful": "^5.6.1",
     "react-dom": "^18",
     "tailwind-merge": "^2.5.2",
     "tailwindcss-animate": "^1.0.7"
@@ -25,6 +31,7 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
+    "prettier-plugin-tailwindcss": "^0.6.6",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
   }
